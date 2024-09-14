@@ -1,32 +1,76 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body, html {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25vw; /* 25% ширины экрана */
-    height: 25vw; /* 25% высоты экрана */
-    max-width: 200px; /* максимальная ширина кнопки */
-    max-height: 200px; /* максимальная высота кнопки */
-    background-color: red;
     color: white;
-    font-size: 24px;
-    text-decoration: none;
-    border-radius: 12px; /* Закругленные углы */
-    transition: background-color 0.3s;
 }
 
-.button:hover {
-    background-color: darkred; /* Цвет при наведении */
+h1 {
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+h2 {
+    padding-top: 10px;
+    font-family: Arial;
+}
+   
+h3 {
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+a {
+    padding-left: 30%;
+    margin-top: 20%;
+    font-family: Arial;
+    color: red;
+}
+
+p {
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+ul {
+    padding-top: 10px;
+    font-family: Arial;
+    padding-left: 10%;
+}
+
+li {
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+li:nth-child(2) {
+    color: turquoise;
+}
+
+header {
+    background-color: green;
+    height: 40px;
+    padding-left: 45%;
+    color: white;
+}
+
+div {
+    background-color: blue;
+    margin-left: 35%;
+    width: 25%;
+    padding-left: 1%;
+    padding-bottom: 0.8%;
+}
+
+footer {
+    background-color: green;
+    height: 40px;
+    padding-left: 45%;
+    color: white;
+}
+
+img {
+    padding-left: 70%;
 }

@@ -1,13 +1,16 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0em;
+    padding: 0em;
     box-sizing: border-box;
     color: white;
 }
 
 h1 {
     padding-top: 10px;
+}
+
+.contenth1 {
     font-family: Arial;
 }
 
@@ -50,29 +53,36 @@ li:nth-child(2) {
 }
 
 header {
-    background-color: green;
     height: 40px;
-    padding-left: 45%;
     color: white;
+    text-align:center;
+}
+
+.header {
+    background-color: green;
 }
 
 div {
     background-color: blue;
-    margin-left: 35%;
+    margin-left: 37%;
     width: 25%;
     padding-left: 1%;
     padding-bottom: 0.8%;
 }
 
 footer {
-    background-color: green;
     height: 40px;
-    padding-left: 45%;
+    text-align: center;
     color: white;
+}
+
+.footer {
+    background-color: green;
 }
 
 img {
     padding-left: 70%;
+    display: inline;
 }
 
 .rounded-square {
@@ -81,5 +91,12 @@ img {
     border: 5px solid white; 
     background-color: transparent; 
     border-top-left-radius: 20px; 
-    border-bottom-right-radius: 20px; /
+    border-bottom-right-radius: 20px; 
+}
+
+body {
+    visibility: visible;
+    position: static;
+    clear: none;
+    overflow: hidden;
 }

@@ -1,2 +1,32 @@
-code CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw; /* 25% ширины экрана */
+    height: 25vw; /* 25% высоты экрана */
+    max-width: 200px; /* максимальная ширина кнопки */
+    max-height: 200px; /* максимальная высота кнопки */
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 12px; /* Закругленные углы */
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: darkred; /* Цвет при наведении */
+}
